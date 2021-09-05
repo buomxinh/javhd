@@ -1,0 +1,118 @@
+/* ----Responsive--- */
+
+/*  ---BREAK-POINT------
+    PC >= 1024px
+    Tablet >=740px
+    Mobile <740px
+ */
+
+
+/* PC */
+@media(min-width:740px)    {
+
+
+}
+
+ /* Tablet */
+@media(min-width:740px) and (max-width:1023px)   {
+
+
+}
+/* ---Mobile---- */
+@media(max-width:740px)    {
+   
+    #header .search-button{
+        display: none;
+
+    }
+    #header .menu-mobile{
+        display: block;
+      
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav > li {
+        display: block;
+    }
+ 
+    #nav .subnav{
+        position: initial;
+        background-color:#000;   
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav .li a{
+        padding: 1px 24px;
+    }
+
+    .content-section-idol{
+        padding: 20px 14px;
+    }
+    .content-section3{
+        padding: 32px;
+    }
+    .idol-list{
+        padding: 16px 0;
+    }
+    .idol-item{
+        width: 50%;
+        padding: 0 5px;
+    }
+    .idol-body{
+        padding: 0 5px 10px;
+    }
+    .idol-name{
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    
+    }
+    .idol-date{
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    .idol-decription{
+        font-size: 13px;
+        margin: 5px 0;
+        line-height: 17px;   
+    }
+    .buy-ticket{
+        width: 90px;
+        height: 32px;
+        padding: 6px 0px;
+        font-size: 13px;
+        font-weight: 300;
+      
+    }
+
+    .porn-star-picture{
+        width: 100%;
+        padding:30px;
+    }
+    .content-section3{
+      
+    }
+    .contact-detail{
+        width: 100%;
+        font-size: 15px;
+    }
+    .form-submit-btn{
+        width: 100%;
+    }
+
+    #footer{
+        padding: 32px;
+    }
+    #footer .Copyright{
+        margin-top: 12px;
+    }
+}
